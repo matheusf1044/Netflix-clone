@@ -1,0 +1,26 @@
+@media screen and (max-width: 895px){
+    img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    body {
+        padding: 10px;
+    }
+
+    .saction-information {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 400px;
+    }
+}
