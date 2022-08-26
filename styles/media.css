@@ -25,11 +25,13 @@
     }
 
     .main-title-section {
-        font-size: 40px;
+        font-size: 30px;
+        padding: 02px 10px;
     }
 
     .main-subtitle-section {
         font-size: 22px;
+        padding: 02px 18px;
     }
 
     .saction-information {
@@ -48,7 +50,7 @@
     }
 
     .email {
-        height: 45px;
+        height: 43px;
         font-size: 16px;
     }
 
@@ -57,7 +59,7 @@
     }
 
     img {
-        width: 400px;
+        width: 320px;
     }
 
 }
