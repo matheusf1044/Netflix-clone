@@ -6,7 +6,30 @@
 
 @media screen and (max-width: 760px) {
     body {
-        padding: 10px;
+        margin: 0 auto;
+        
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #logo {
+        margin-bottom: 25px;
+    }
+    
+    .lang {
+        margin: 0;
+    }
+
+    .main-title-section {
+        font-size: 40px;
+    }
+
+    .main-subtitle-section {
+        font-size: 22px;
     }
 
     .saction-information {
@@ -20,7 +43,21 @@
         flex-direction: column;
     }
 
+    form {
+        margin: 15px;
+    }
+
+    .email {
+        height: 45px;
+        font-size: 16px;
+    }
+
+    #enter-btn {
+        font-size: 20px;
+    }
+
     img {
         width: 400px;
     }
+
 }
